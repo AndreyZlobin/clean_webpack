@@ -3,8 +3,9 @@
 // @import "modules/header";
 // @import "modules/nav";
 
-// @import "../components/buttons";
-// @import "../components/wrapper";
+@import "../components/items/buttons";
+@import "../components/items/input";
+@import "../components/items/wrapper";
 // @import "../components/logo";
 // @import "../components/pager.scss";
 
@@ -17,7 +18,7 @@ body {
   position: relative;
   min-height: 100vh;
   background-color: $font-color-white;
-  background-image: url(../images/main-bg3.png);
+  // background-image: url(../images/main-bg3.png);
   background-position: left;
   background-attachment: fixed;
 }
