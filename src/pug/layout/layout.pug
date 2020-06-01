@@ -4,12 +4,27 @@ html(lang="ru")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Фито Фарма
+        title TITLE
         
     body
+        //- - var user = { description: 'foo bar baz' }
+        //- - var authorised = false
+        //- #user
+        //-     if user.description
+        //-         h2.green Description
+        //-         p.description= user.description
+        //-     else if authorised
+        //-         h2.blue Description
+        //-         p.description.
+        //-             User has no description,
+        //-             why not add one...
+        //-     else
+        //-         h2.red Description
+        //-         p.description User has no description
         include ../mixins/mixins.pug
+        
         //- include ../modules/header.pug
-
+        
         block content
         //- include ../modules/footer.pug
 
